@@ -316,6 +316,8 @@ function set_global_paths()
         export ANDROID_EMULATOR_PREBUILTS
     fi
 
+    ANDROID_GLOBAL_BUILD_PATHS+=:$T/script/jOS
+
     # Finally, set PATH
     export PATH=$ANDROID_GLOBAL_BUILD_PATHS:$PATH
 }
@@ -1231,8 +1233,8 @@ if [[ "$USE_LEFTOVERS" -eq 1 ]]; then
 fi
 
 export LANG=C.UTF-8
-export BUILD_DATETIME=${BUILD_DATETIME:-$(cat ${OUT_DIR:-out}/build_date.txt 2>/dev/null || date -u +%s)}
-export BUILD_NUMBER=${BUILD_NUMBER:-$(cat ${OUT_DIR:-out}/soong/build_number.txt 2>/dev/null || date -u -d @$BUILD_DATETIME +%Y%m%d00)}
+export BUILD_DATETIME=$(cat ${OUT_DIR:-out}/build_date.txt 2>/dev/null || date -u +%s)
+export BUILD_NUMBER=$(cat ${OUT_DIR:-out}/soong/build_number.txt 2>/dev/null || date -u -d @$BUILD_DATETIME +%Y%m%d00)
 export BUILD_USERNAME=android-user
 export BUILD_HOSTNAME=r-0123456789abcdef-0123
 
