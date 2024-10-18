@@ -31,3 +31,5 @@ PRODUCT_PACKAGES += \
     StorageManager \
     SystemUI \
     WallpaperCropper \
+    jOS-System \
+    ThemeEngine \
