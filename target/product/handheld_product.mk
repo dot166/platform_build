@@ -33,6 +33,7 @@ PRODUCT_PACKAGES += \
     Music \
     PdfViewerGOS \
     preinstalled-packages-platform-handheld-product.xml \
+		Recorder \
     SettingsIntelligence \
     ThemePicker \
     ThemesStub \
