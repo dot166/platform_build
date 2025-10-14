@@ -32,4 +32,4 @@ PRODUCT_PACKAGES += \
     SystemUI \
     WallpaperCropper \
     jOS-System \
-    ThemeEngine \
+    ThemeEngineStub \
