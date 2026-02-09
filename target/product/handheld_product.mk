@@ -28,6 +28,7 @@ PRODUCT_PACKAGES += \
     DeskClock \
     ExactCalculator \
     Etar \
+    FocusLock \
     Gallery2 \
     LatinIME \
     Music \
