@@ -317,7 +317,7 @@ function set_global_paths()
         export ANDROID_EMULATOR_PREBUILTS
     fi
 
-    ANDROID_GLOBAL_BUILD_PATHS+=:$T/script/jOS
+    ANDROID_GLOBAL_BUILD_PATHS+=:$T/misc/aosp
 
     # Finally, set PATH
     export PATH=$ANDROID_GLOBAL_BUILD_PATHS:$PATH
