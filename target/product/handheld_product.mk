@@ -32,6 +32,7 @@ PRODUCT_PACKAGES += \
     Gallery2 \
     LatinIME \
     Music \
+    NightStand \
     PdfViewerGOS \
     preinstalled-packages-platform-handheld-product.xml \
     Recorder \
