@@ -26,6 +26,7 @@ PRODUCT_PACKAGES += \
     Camera \
     Contacts \
     DeskClock \
+    DocumentsUIOverlay \
     ExactCalculator \
     Etar \
     FocusLock \
