@@ -29,7 +29,6 @@ PRODUCT_PACKAGES += \
     DocumentsUIOverlay \
     ExactCalculator \
     Etar \
-    FocusLock \
     Gallery2 \
     LatinIME \
     Music \
