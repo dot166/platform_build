@@ -25,7 +25,6 @@ PRODUCT_PACKAGES += \
     AccessibilityMenu \
     AvatarPicker \
     Launcher3QuickStep \
-    Nexus \
     Provision \
     Settings \
     SetupWizard2 \
