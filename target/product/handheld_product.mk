@@ -31,6 +31,7 @@ PRODUCT_PACKAGES += \
     Etar \
     Gallery2 \
     LatinIME \
+    LibPhone2DB \
     Music \
     NightStand \
     PdfViewerGOS \
