@@ -741,6 +741,7 @@ system_image_defaults {
         default: [],
     }) + select(product_variable("debuggable"), {
         true: [
+            "HardeningTestApp", // base_system
             "alloctop",
             "adevice_fingerprint",
             "arping",
